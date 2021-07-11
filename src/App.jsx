@@ -2,9 +2,10 @@ import "./app.scss"
 import Home from "./pages/home/Home";
 import Register from "./pages/register/Register";
 import Watch from "./pages/watch/Watch";
-const App= ()=> {
-  return <Register/>;
-};
+import Login2 from "./pages/login/Login2";
 
+const App = () => {
+  return <Login2/>;
+};
 
 export default App;
